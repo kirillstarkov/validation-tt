@@ -1,0 +1,95 @@
+.errorField {
+    display: none;
+    color: red;
+}
+
+.errorField.visible {
+    display: block;
+}
+
+.addPhoneSecond, .addPhoneThird {
+    display: none;
+}
+
+.addPhoneSecond.visible, .addPhoneThird.visible {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.error {
+    border: 2px solid crimson;
+}
+
+.contentWrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.section {
+    width: 480px;
+    margin: 0 auto 80px;
+    border: 1px solid black;
+    position: relative;
+    transition: margin .3s;
+}
+
+.extraMargins .section {
+    margin: 0 auto 280px;
+}
+
+.heading {
+    background-color: wheat;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 8px 12px;
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0 8px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.inputWrapper label {
+    margin-bottom: 12px;
+}
+
+.submitBtn, .marginBtn {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 150px;
+    padding: 8px 12px;
+    background-color: wheat;
+    border: 1px solid gray;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color .4s;
+}
+
+.marginBtn {
+    bottom: 65px;
+}
+
+.submitBtn:hover {
+    background-color: antiquewhite;
+}
+
+.inputWrapper input {
+    padding: 6px 4px;
+    border-radius: 8px;
+}
+
+.terms {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding: 0 8px;
+    align-items: center;
+    margin-bottom: 12px;
+}
